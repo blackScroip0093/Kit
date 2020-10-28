@@ -40,12 +40,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E078E1D08D84A71D9F23B2C /* Pods_NewPayLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewPayLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A90BD7B78C0744DF1E4D8F1 /* NewPayLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NewPayLib.podspec; path = ../NewPayLib.podspec; sourceTree = "<group>"; };
+		8A90BD7B78C0744DF1E4D8F1 /* NewPayLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NewPayLib.podspec; path = ../NewPayLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4681440DC2FEFE292070177 /* Pods-NewPayLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-NewPayLib_Example/Pods-NewPayLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC2F592C34DD1531DAD7405B /* Pods-NewPayLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NewPayLib_Tests/Pods-NewPayLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C29DAC838C044620B89327F4 /* Pods-NewPayLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayLib_Example.release.xcconfig"; path = "Target Support Files/Pods-NewPayLib_Example/Pods-NewPayLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D9BD97809506705F50C339E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DFFBF236D9798AE2350A7C97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D9BD97809506705F50C339E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DFFBF236D9798AE2350A7C97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F98ADAEA65779F00673A2B08 /* Pods_NewPayLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewPayLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,6 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for NewPayLib */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				607FACD11AFB9204008FA782 /* Products */,
 				E86145E595FE717E30698E95 /* Pods */,
 				F02822B340D5F7E3593D1E86 /* Frameworks */,
 			);
@@ -88,6 +87,7 @@
 				607FACE51AFB9204008FA782 /* NewPayLib_Tests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		607FACD21AFB9204008FA782 /* Example for NewPayLib */ = {
@@ -124,6 +124,7 @@
 		607FACE91AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACD11AFB9204008FA782 /* Products */,
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -147,7 +148,6 @@
 				BC2F592C34DD1531DAD7405B /* Pods-NewPayLib_Tests.debug.xcconfig */,
 				47A659918E363221A8F89807 /* Pods-NewPayLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
